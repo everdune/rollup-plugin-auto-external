@@ -1,7 +1,7 @@
 {
-  "name": "rollup-plugin-auto-external",
-  "version": "2.0.0",
-  "description": "Rollup plugin to automatically exclude package.json dependencies and peerDependencies from your bundle",
+  "name": "@everdune/rollup-plugin-auto-external",
+  "version": "3.0.0",
+  "description": "Rollup plugin to automatically exclude package.json dependencies and peerDependencies from your bundle (forked from https://github.com/stevenbenisek/rollup-plugin-auto-external)",
   "main": "index.js",
   "scripts": {
     "prepublishOnly": "npm test",
@@ -15,11 +15,11 @@
     "dependencies",
     "peerDependencies"
   ],
-  "author": "Steven Benisek <steven.benisek@gmail.com>",
-  "homepage": "https://github.com/stevenbenisek/rollup-plugin-auto-external",
+  "author": "Robin Hos <rhos@everdune.com>",
+  "homepage": "https://github.com/everdune/rollup-plugin-auto-external",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stevenbenisek/rollup-plugin-auto-external.git"
+    "url": "git+https://github.com/everdune/rollup-plugin-auto-external.git"
   },
   "license": "MIT",
   "engines": {
