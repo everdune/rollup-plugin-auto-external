@@ -64,6 +64,33 @@ export default builtins6_0_0;
 "
 `;
 
+exports[`autoExternal(options) should handle aws-sdk case: import AWS object without services 1`] = `
+"import AWS from 'aws-sdk/global';
+
+
+
+export default AWS;
+"
+`;
+
+exports[`autoExternal(options) should handle aws-sdk case: import entire SDK 1`] = `
+"import AWS from 'aws-sdk';
+
+
+
+export default AWS;
+"
+`;
+
+exports[`autoExternal(options) should handle aws-sdk case: import individual service 1`] = `
+"import S3 from 'aws-sdk/clients/s3';
+
+
+
+export default S3;
+"
+`;
+
 exports[`autoExternal(options) should handle cherry picked modules 1`] = `
 "import foo from 'foo/foo';
 import bar from 'bar/bar';

@@ -116,4 +116,20 @@ describe('autoExternal(options)', () => {
     bundle({
       input: path.resolve(__dirname, '../__fixtures__/scoped/index.js'),
     }));
+
+    it('should handle aws-sdk case: import entire SDK', () =>
+    bundle({
+      input: path.resolve(__dirname, '../__fixtures__/aws-sdk/entire-sdk/index.js'),
+    }));
+
+    it('should handle aws-sdk case: import AWS object without services', () =>
+    bundle({
+      input: path.resolve(__dirname, '../__fixtures__/aws-sdk/without-services/index.js'),
+    }));
+
+    it('should handle aws-sdk case: import individual service', () =>
+    bundle({
+      input: path.resolve(__dirname, '../__fixtures__/aws-sdk/individual-service/index.js'),
+    }));
+
 });
