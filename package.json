@@ -1,6 +1,6 @@
 {
   "name": "@everdune/rollup-plugin-auto-external",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Rollup plugin to automatically exclude package.json dependencies and peerDependencies from your bundle (forked from https://github.com/stevenbenisek/rollup-plugin-auto-external)",
   "main": "index.js",
   "scripts": {
